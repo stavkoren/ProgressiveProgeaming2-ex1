@@ -10,6 +10,9 @@ namespace Excercise_1
     public class FunctionsContainer
     {
         private Dictionary<string, func> functions;
+        /// <summary>
+        /// FunctionsContainer- constructor
+        /// </summary>
         public FunctionsContainer()
         {
             functions = new Dictionary<string, func>();
@@ -30,6 +33,10 @@ namespace Excercise_1
                 functions[key] = value;
             }
         }
+        /// <summary>
+        /// getAllMissions 
+        /// </summary>
+        /// <returns>all missions names in this container</returns>
         public ICollection<string> getAllMissions()
         {
             return functions.Keys;

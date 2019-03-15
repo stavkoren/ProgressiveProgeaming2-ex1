@@ -8,31 +8,32 @@ namespace Excercise_1
 {
     public class SingleMission : IMission
     {
-        private readonly string name;
-        private readonly string type;
         private func func;
 
-        public string Name
-        {
-            get
-            {return name; }
-        }
+        public string Name { get; }
 
-        public string Type
-        {
-            get
-            { return type;  }
-        }
+        public string Type { get; }
+        /// <summary>
+        /// SingleMission - constructor
+        /// </summary>
+        /// <param name="mission"></param>
+        /// <param name="missionName"></param>
         public SingleMission(func mission, string missionName)
         {
-            name = missionName;
-            type = "Single";
+            Name = missionName;
+            Type = "Single";
             func = mission;
         }
         public event EventHandler<double> OnCalculate;
+        /// <summary>
+        /// Calculate - calvulate value by its mission
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns>result (type: double)</returns>
         public double Calculate(double value)
         {
             double result= func(value);
+            //invoke event if not empty
             OnCalculate?.Invoke(this, result);
             return result;
         }
