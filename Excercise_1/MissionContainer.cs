@@ -37,7 +37,7 @@ namespace Excercise_1
         /// getAllMissions 
         /// </summary>
         /// <returns>all missions names in this container</returns>
-        public ICollection<string> getAllMissions()
+        public IEnumerable<string> getAllMissions()
         {
             return functions.Keys;
         }

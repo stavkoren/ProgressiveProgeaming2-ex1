@@ -13,6 +13,8 @@ namespace Excercise_1
         public string Name { get; }
 
         public string Type { get; }
+
+        private const string type = "Single";
         /// <summary>
         /// SingleMission - constructor
         /// </summary>
@@ -21,7 +23,7 @@ namespace Excercise_1
         public SingleMission(func mission, string missionName)
         {
             Name = missionName;
-            Type = "Single";
+            Type = type;
             func = mission;
         }
         public event EventHandler<double> OnCalculate;

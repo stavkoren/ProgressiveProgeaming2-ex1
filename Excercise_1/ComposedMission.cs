@@ -9,6 +9,7 @@ namespace Excercise_1
     public class ComposedMission : IMission
     {
         private Queue<func> functions;
+        private const string type = "Composed";
 
         public string Name { get; }
         public string Type { get; }
@@ -20,7 +21,7 @@ namespace Excercise_1
         {
             functions = new Queue<func>();
             Name = missionName;
-            Type = "Composed";
+            Type = type;
         }
         public event EventHandler<double> OnCalculate;
         /// <summary>
