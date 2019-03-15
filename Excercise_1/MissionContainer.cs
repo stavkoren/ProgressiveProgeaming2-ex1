@@ -30,5 +30,9 @@ namespace Excercise_1
                 functions[key] = value;
             }
         }
+        public ICollection<string> getAllMissions()
+        {
+            return functions.Keys;
+        }
     }
 }

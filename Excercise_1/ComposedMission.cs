@@ -32,6 +32,7 @@ namespace Excercise_1
             {
                 value = func(value);
             }
+            OnCalculate?.Invoke(this, value);
             return value;
         }
     }

@@ -5,3 +5,10 @@ C:\Users\Eitan Koren\source\repos\progressive programing 2\Excercise_1\Excercise
 C:\Users\Eitan Koren\source\repos\progressive programing 2\Excercise_1\Excercise_1\bin\Debug\Excercise_1.pdb
 C:\Users\Eitan Koren\source\repos\progressive programing 2\Excercise_1\Excercise_1\obj\Debug\Excercise_1.exe
 C:\Users\Eitan Koren\source\repos\progressive programing 2\Excercise_1\Excercise_1\obj\Debug\Excercise_1.pdb
+C:\Users\Eitan Koren\Source\Repos\ProgressivePrograming2\Ex1\Excercise_1\obj\Debug\Excercise_1.csprojAssemblyReference.cache
+C:\Users\Eitan Koren\Source\Repos\ProgressivePrograming2\Ex1\Excercise_1\obj\Debug\Excercise_1.csproj.CoreCompileInputs.cache
+C:\Users\Eitan Koren\Source\Repos\ProgressivePrograming2\Ex1\Excercise_1\obj\Debug\Excercise_1.exe
+C:\Users\Eitan Koren\Source\Repos\ProgressivePrograming2\Ex1\Excercise_1\obj\Debug\Excercise_1.pdb
+C:\Users\Eitan Koren\Source\Repos\ProgressivePrograming2\Ex1\Excercise_1\bin\Debug\Excercise_1.exe.config
+C:\Users\Eitan Koren\Source\Repos\ProgressivePrograming2\Ex1\Excercise_1\bin\Debug\Excercise_1.exe
+C:\Users\Eitan Koren\Source\Repos\ProgressivePrograming2\Ex1\Excercise_1\bin\Debug\Excercise_1.pdb
